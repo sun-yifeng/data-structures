@@ -6,7 +6,7 @@ package com.sunyf.ch02;
  * @author: sunyf
  * @create: 2018-11-14 21:25
  **/
-public class Dcd {
+public class Euclid {
 
     /**
      * 求最大公约数，欧几里得算法：
