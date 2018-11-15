@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/ch02-algorithm/pom.xml" />
         <option value="$PROJECT_DIR$/ch03-list-stack-queue/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>

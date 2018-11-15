@@ -12,7 +12,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ch02-algorithm" target="1.7" />
-      <module name="ch03-list-stack-queue" target="1.5" />
+      <module name="ch03-list-stack-queue" target="1.7" />
+      <module name="data-structures" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

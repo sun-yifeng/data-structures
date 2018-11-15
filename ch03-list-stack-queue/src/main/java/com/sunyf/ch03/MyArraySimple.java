@@ -1,10 +1,12 @@
+package com.sunyf.ch03;
+
 /**
  * @program: data-structures
  * @description: 无序数组：按照插入顺序排列，没有按照大小或者其他顺序排列
  * @author: Mr.Sun
  * @create: 2018-03-31 00:10
  **/
-public class ArrayTest {
+public class MyArraySimple {
     //定义数组
     private int[] intArray;
     //有效长度
@@ -13,14 +15,14 @@ public class ArrayTest {
     private int length;
 
     //默认构造一个长度为50的数组
-    public ArrayTest() {
+    public MyArraySimple() {
         elems = 0;
         length = 50;
         intArray = new int[length];
     }
 
     //构造函数，初始化一个长度为length 的数组
-    public ArrayTest(int length) {
+    public MyArraySimple(int length) {
         elems = 0;
         this.length = length;
         intArray = new int[length];
@@ -105,7 +107,7 @@ public class ArrayTest {
 
     public static void main(String[] args) {
         //创建自定义封装数组结构，数组大小为4
-        ArrayTest array = new ArrayTest(4);
+        MyArraySimple array = new MyArraySimple(4);
         //添加4个元素分别是1,2,3,4
         array.add(1);
         array.add(3);
