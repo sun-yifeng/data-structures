@@ -4,7 +4,8 @@ import java.util.Iterator;
 
 /**
  * @program: data-structures
- * @description: 数组链表的实现
+ * @description:
+ * 简单数组链表的实现
  * @author: sunyf
  * @create: 2018-11-15 15:53
  **/
@@ -72,6 +73,7 @@ public class MyArrayList<T> implements Iterable<T> {
         }
 
         T[] old = theItems;
+        // FIXME 不能创建一个泛型对象，所以用了转换
         theItems = (T[]) new Object[newCapacity];
         for (int i = 0; i < size(); i++) {
             theItems[i] = old[i];
