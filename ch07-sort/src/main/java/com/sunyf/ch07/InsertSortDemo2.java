@@ -2,18 +2,22 @@ package com.sunyf.ch07;
 
 /**
  * @program: data-structures
- * @description: 插入排序
+ * @description:
+ *
+ * 1、插入排序,此栗子来源于网络
+ * 2、用while循环实现插入排序；
+ *
  * @author: Mr.Sun
  * @create: 2018-03-31 10:05
  **/
 public class InsertSortDemo2 {
 
     public static int[] sort(int[] array) {
-        int j;
+
         // 从下标为1的元素开始比较，因为下标为0的只有一个元素，默认是有序的
         for (int i = 1; i < array.length; i++) {
             int tmp = array[i]; //保存当前元素
-            j = i;
+            int j = i;
             /**
              *用当前元素跟前一个元素比较，如果当前元素小，则把前一个元素移动到当前位置（此时数组中会有两个相同的元素）
              *一直这样做比较，直到当前元素不小于前一个元素，每次比较完成之后，j--保证跟当前元素比较的元素是向前移动的
