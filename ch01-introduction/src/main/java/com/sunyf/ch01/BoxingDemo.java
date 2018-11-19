@@ -18,6 +18,13 @@ public class BoxingDemo {
         Integer i1 = 1, i2 = 50;
         int k = i1.compareTo(i2);
         System.out.println(k);
+
+        // 数组长度
+        String[] arr = {"sun", "yi", "feng", "hello"};
+        int l = arr.length;
+        System.out.println(l);
+
+
     }
 
 }

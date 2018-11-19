@@ -16,6 +16,7 @@
         <module>ch02-algorithm</module>
         <module>ch03-list-stack-queue</module>
         <module>ch01-introduction</module>
+        <module>ch07-sort</module>
     </modules>
 
     <properties>

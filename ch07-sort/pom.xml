@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sunyf.ch01</groupId>
-    <artifactId>ch01-introduction</artifactId>
+    <groupId>com.sunyf.ch07</groupId>
+    <artifactId>ch07-sort</artifactId>
 
-    <name>ch01-introduction</name>
+    <name>ch07-sort</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 

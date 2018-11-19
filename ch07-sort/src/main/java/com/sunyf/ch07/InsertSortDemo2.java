@@ -1,10 +1,12 @@
+package com.sunyf.ch07;
+
 /**
  * @program: data-structures
  * @description: 插入排序
  * @author: Mr.Sun
  * @create: 2018-03-31 10:05
  **/
-public class InsertSortTest {
+public class InsertSortDemo2 {
 
     public static int[] sort(int[] array) {
         int j;
@@ -12,8 +14,10 @@ public class InsertSortTest {
         for (int i = 1; i < array.length; i++) {
             int tmp = array[i]; //保存当前元素
             j = i;
-            //用当前元素跟前一个元素比较，如果当前元素小，则把前一个元素移动到当前位置（此时数组中会有两个相同的元素）
-            //一直这样做比较，直到当前元素不小于前一个元素，每次比较完成之后，j--保证跟当前元素比较的元素是向前移动的
+            /**
+             *用当前元素跟前一个元素比较，如果当前元素小，则把前一个元素移动到当前位置（此时数组中会有两个相同的元素）
+             *一直这样做比较，直到当前元素不小于前一个元素，每次比较完成之后，j--保证跟当前元素比较的元素是向前移动的
+             **/
             while (j > 0 && tmp < array[j - 1]) {
                 array[j] = array[j - 1]; //当前元素替换成数组的前一个元素
                 j--; //

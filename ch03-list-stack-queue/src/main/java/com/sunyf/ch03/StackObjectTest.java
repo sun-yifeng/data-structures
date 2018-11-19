@@ -1,3 +1,5 @@
+package com.sunyf.ch03;
+
 import java.util.Arrays;
 import java.util.EmptyStackException;
 
@@ -93,7 +95,7 @@ public class StackObjectTest {
     }
 
     public static void main(String[] args) {
-//        StackObjectTest stack = new StackObjectTest();
+//        com.sunyf.ch03.StackObjectTest stack = new com.sunyf.ch03.StackObjectTest();
 //        String str = "how are you";
 //        char[] cha = str.toCharArray();
 //        for (char c : cha) {

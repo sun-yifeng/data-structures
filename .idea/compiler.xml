@@ -9,13 +9,15 @@
         <module name="ch01-introduction" />
         <module name="ch02-algorithm" />
         <module name="ch03-list-stack-queue" />
+        <module name="ch07-sort" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ch01-introduction" target="1.5" />
-      <module name="ch02-algorithm" target="1.7" />
-      <module name="ch03-list-stack-queue" target="1.7" />
-      <module name="data-structures" target="1.5" />
+      <module name="ch01-introduction" target="1.8" />
+      <module name="ch02-algorithm" target="1.8" />
+      <module name="ch03-list-stack-queue" target="1.8" />
+      <module name="ch07-sort" target="1.8" />
+      <module name="data-structures" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
