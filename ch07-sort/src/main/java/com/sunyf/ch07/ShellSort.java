@@ -22,7 +22,10 @@ public class ShellSort {
                     a[j] = a[j - gap];
                 }
                 a[j] = tmp;
+                //
+                System.out.println("第i=" + i + "次排序后：" +toString(a));
             }
+            //System.out.println("第gap=" + gap + "次排序后：" +toString(a));
 
         }
 
